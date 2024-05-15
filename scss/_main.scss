@@ -1,0 +1,105 @@
+.main-1__tepa{
+    display: flex;
+    gap: 113px;
+
+
+    iframe{
+        margin-top: 135px;
+        margin-left: 369px;
+        width: 561px;
+        height: 483px;
+        border-radius: 35px;
+        margin-bottom: 109px;
+        position: relative;
+
+
+        &:before{
+            content: "";
+            width: 354px;
+            height: 436px;
+            background-color: #2AE85F;
+            position: absolute;
+            z-index: 10;
+        }
+    }
+    .main-1__span{
+        margin-top: 160px;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #3EA83B;
+        font-family: "poppins";
+        margin-bottom: 28px;
+    }
+    h2{
+        font-size: 46px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #363739;
+        margin-bottom: 37px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #363739;
+        width: 488px;
+    }
+    .main-1__p1{
+        margin-bottom: 20px;
+    }
+    .main-1__p2{
+        margin-bottom: 20px;
+    }
+    
+    button{
+        padding: 14px 46px 15px 47px;
+        margin-top: 30px;
+    }
+}
+
+.main-1__pasti{
+    display: flex;
+    gap: 86px;
+    padding-left: 389px;
+
+
+
+    .main-1__pasti--chap{
+        display: flex;
+        gap: 21px;
+        
+
+        .frame{
+            width: 132px;
+            height: 132px;
+            border-radius: 50%;
+            background:linear-gradient(90deg,#2AE85F,#2AE85F,);
+            padding: 41px 38px 41px 45px;
+        }
+
+
+        .main-1__pasti--span{
+            font-size: 21px;
+            line-height: 23px;
+            font-weight: 700;
+            color: #363739;
+            width: 227px;
+            
+        }
+
+
+        p{
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 400;
+            margin-top: 17px;
+            color: #363739;
+            width: 351px;
+        }
+        .frame-2{
+            padding: 33px 30px 27px 29px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    border: 5px solid #000;
+    width: 100%;
+    display: inline-block;
+    margin: auto auto;
+    
+}
+
+button{
+    padding: 14px 53px 15px 54px;
+    background-color: #3EA83B;
+    color: white;
+    font-family:"poppins";
+    border-radius: 43px;
+    border:none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #0e690b;
+        color: lightgray;
+        
+    }
+}
+
+
+@import "./header";
+@import "./main"

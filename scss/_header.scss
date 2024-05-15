@@ -1,0 +1,94 @@
+.nav{
+    width: 100%;
+    padding: 26px 389px 23px 389px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+
+    img{
+        margin-right: 315px;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        margin-right: 42px;
+    }
+
+}
+.nav__link{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-family: "poppins";
+
+    &:hover{
+        color: grey;
+    }
+}
+
+
+
+.header{
+    width: 100%;
+    padding: 201px 1093px 159px 382px;
+    font-family: "Oswald";
+
+
+
+    background: url(../images/Group\ 15.jpg) no-repeat;
+    
+
+    .header__span-1{
+        max-width: 430px;
+        font-size: 45px;
+        line-height: 54px;
+        font-weight: 500;
+        color: #363739;
+        display: inline-block;
+
+        .Greener{
+            color: #3EA83B;
+        }
+    }
+    h1{
+        font-size: 122px;
+        font-weight: 700;
+        line-height: 69px;
+        color: #3EA83B;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 23px;
+        line-height: 31px;
+        font-weight: 400;
+        color: #8C8C8C;
+        margin-bottom: 30px;
+        max-width: 391px;
+    }
+
+
+    .header__aylana{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 72px 0 0 912px;
+    }
+    .header__aylana-oq{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .header__aylana-yashil{
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #2AE85F;
+    }
+
+}
