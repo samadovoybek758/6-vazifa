@@ -6,9 +6,7 @@
 
 .continer {
   border: 5px solid #000;
-  width: 100%;
-  display: inline-block;
-  margin: auto auto;
+  width: 2000px;
 }
 
 button {
@@ -110,6 +108,7 @@ button:hover {
 .main-1__tepa {
   display: flex;
   gap: 113px;
+  background: url("../images/Rectangle 4 (1).png") no-repeat 21% 40%;
 }
 .main-1__tepa iframe {
   margin-top: 135px;
@@ -193,7 +192,54 @@ button:hover {
   margin-top: 17px;
   color: #363739;
   width: 351px;
+  margin-bottom: 96px;
 }
 .main-1__pasti .main-1__pasti--chap .frame-2 {
   padding: 33px 30px 27px 29px;
+}
+
+.main-2 {
+  display: flex;
+  padding: 116px 347px 81px 386px;
+  align-items: center;
+  color: white;
+  font-family: "poppins";
+  background: url("../images/Rectangle 14.png") no-repeat 80% 0, url("../images/Rectangle 24 (2).png") no-repeat 75% 20%, url("../images/Rectangle 25 (2).png") no-repeat 50% 20% #3646D9;
+}
+.main-2 .main-2__span {
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+}
+.main-2 h2 {
+  font-size: 46px;
+  line-height: 53px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.main-2 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  font-family: "lato";
+  margin-top: 20px;
+}
+.main-2 ul {
+  margin-top: 39px;
+}
+.main-2 ul li {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 17px;
+}
+
+.main-2__li-span {
+  font-size: 20px;
+  width: 475px;
+  font-weight: 700;
+}
+
+.main-2-left {
+  max-width: 500px;
 }/*# sourceMappingURL=style.css.map */
